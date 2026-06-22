@@ -64,26 +64,6 @@ def divide(a: int, b: int) -> float:
         raise ValueError("Division by zero")
 
     return a / b
-Visualization
-
-The project generates a bar chart displaying the overall code quality score.
-
-Installation
-pip install transformers pandas matplotlib
-Run the Notebook
-jupyter notebook ai_code_review_pipeline.ipynb
-Future Improvements
-Integration with LLMs for advanced code reviews
-Support for multiple programming languages
-CI/CD integration
-GitHub Pull Request review automation
-Security vulnerability detection
-Complexity and performance analysis
-Project Structure
-.
-├── ai_code_review_pipeline.ipynb
-└── README.md
-
 ```
 
 ---
@@ -91,3 +71,4 @@ Project Structure
 ### Author
 
 **Kinza Zahra**
+
